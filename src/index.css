@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: whitesmoke;
+  padding: 15px;
+}
+
+.nav div{
+  font-size: 44px;
+  color: whitesmoke;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.nav div:hover{
+  color: goldenrod;
+}
+
+.home{
+  margin-top: 15vh;
+}
+
+.home h1{
+  font-size: 50px;
+}
+
+.home h1:hover{
+  color: goldenrod;
+}
+
+.homeContent{
+  /* border: solid purple; */
+  height: 10vh;
+  width: 65vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+
+.homeContent a{
+  color: black;
+  text-decoration: none;
+}
+
+.homeContent a:hover{
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.icons{
+  height: 35px;
+  width: 35px;
+}
+
+.resume{
+  /* border: solid purple; */
+  width: 50vh;
+  margin: auto;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume a{
+  /* border: solid blue; */
+  height: 9vh;
+  margin-bottom: 2vh;
+  text-decoration: none;
+  color: black;
+}
+
+.resume a:hover{
+  color: goldenrod;
+  text-decoration: underline;
+}
